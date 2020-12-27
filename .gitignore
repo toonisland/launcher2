@@ -1,0 +1,7 @@
+# Build
+bin/
+build/
+dist/
+
+# Compiled Python Crap
+*/__pycache__/

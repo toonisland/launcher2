@@ -1,0 +1,4 @@
+PyInstaller[Encryption]
+PyQT5
+PyYAML
+Requests
