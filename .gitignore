@@ -5,3 +5,6 @@ dist/
 
 # Compiled Python Crap
 */__pycache__/
+
+# PyInstaller Rubbish
+ToonIslandLauncher.spec
