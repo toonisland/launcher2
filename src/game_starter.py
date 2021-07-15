@@ -22,13 +22,13 @@ class GameStarter():
     def launchGame(self):
         # This still needs work but I guess this is slightly better
         cookie = str((self.uiCallback.uName + self.uiCallback.pWord))
-        GAME_SERVER = "127.0.0.1"
+        GAME_SERVER = "73.126.179.188"
         ### Game starting commands ###
         TIA_PLAYCOOKIE = self.uiCallback.uName + self.uiCallback.pWord
         if platform.system() == 'Windows':               
-            cmd_00 = 'SET TIA_PLAYCOOKIE=' + TIA_PLAYCOOKIE + ' && set TTS_GAMESERVER=' + GAME_SERVER + ' && TIAEngine.exe'
+            cmd_00 = 'SET TIA_PLAYCOOKIE=' + TIA_PLAYCOOKIE + ' && set TIA_GAMESERVER=' + GAME_SERVER + ' && TIAEngine.exe'
         if platform.system() == 'Linux' or platform.system() == 'Darwin':
-            cmd_00 = 'export TIA_PLAYCOOKIE=' + TIA_PLAYCOOKIE + ' && export TTS_GAMESERVER=' + GAME_SERVER + ' && chmod +x TIAEngine && ./TIAEngine'
+            cmd_00 = 'export TIA_PLAYCOOKIE=' + TIA_PLAYCOOKIE + ' && export TIA_GAMESERVER=' + GAME_SERVER + ' && chmod +x TIAEngine && ./TIAEngine'
         # Before we run the command lets set the username variables to null
         self.uiCallback.uName = False
         self.uiCallback.pWord = False
