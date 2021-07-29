@@ -22,7 +22,7 @@ class GameStarter():
     def launchGame(self):
         # This still needs work but I guess this is slightly better
         cookie = str((self.uiCallback.uName + self.uiCallback.pWord))
-        GAME_SERVER = "73.126.179.188"
+        GAME_SERVER = "gs1.toonisland.online"
         ### Game starting commands ###
         TIA_PLAYCOOKIE = self.uiCallback.uName + self.uiCallback.pWord
         if platform.system() == 'Windows':               
