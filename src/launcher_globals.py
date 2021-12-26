@@ -25,7 +25,7 @@ if TESTING_NF:
 
 ### DEBUGGING PURPOSES FOR LOCAL AND REMOTE FILE NAMES ###
 RESOURCE_FILE = 'releases.yaml'
-RESOURCE_LINK = 'http://cdn.toonisland.online/releases.yaml'
+RESOURCE_LINK = 'https://toonisland.github.io/releases/releases.yaml'
 
 RESOURCE_NAME = 'resource-links'
 
@@ -81,9 +81,3 @@ LAUNCHER_STATUS_FAILURE = 'Something went wrong while updating.'
 
 ### Game server ###
 GAME_SERVER = '127.0.0.1'
-
-### Relative paths to python install ###
-if CURRENT_PLATFORM == 'Linux':
-    PYTHON_PATH = '/usr/bin/python'
-else:
-    PYTHON_PATH = "C:\Panda3D-1.11.0-x64\python\ppython.exe"

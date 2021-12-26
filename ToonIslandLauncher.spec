@@ -5,7 +5,7 @@ block_cipher = pyi_crypto.PyiBlockCipher(key='mwAzepLgHzCzCR2ZQ9f5QXpqRa7e9JaF5e
 
 
 a = Analysis(['src\\main.py'],
-             pathex=['C:\\Users\\Nora\\TIA\\launcher2'],
+             pathex=[],
              binaries=[],
              datas=[],
              hiddenimports=[],

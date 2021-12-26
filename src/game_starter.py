@@ -10,19 +10,12 @@ from launcher_globals import *
 class GameStarter():
 
     def __init__(self):
-        # Start game internal globals
-
-        if CURRENT_PLATFORM == 'Linux':
-            self.python_path = PYTHON_PATH
-        else:
-            self.python_path = '"'+ CURRENT_PATH + PYTHON_PATH + '"'
-
-
-
+        pass
+    
     def launchGame(self):
         # This still needs work but I guess this is slightly better
         cookie = str((self.uiCallback.uName + self.uiCallback.pWord))
-        GAME_SERVER = "gs1.toonisland.online"
+        GAME_SERVER = "73.126.179.188"
         ### Game starting commands ###
         TIA_PLAYCOOKIE = self.uiCallback.uName + self.uiCallback.pWord
         if platform.system() == 'Windows':               
